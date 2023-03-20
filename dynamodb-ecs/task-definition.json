@@ -19,14 +19,16 @@
                 {
                     "name": "TOPICARN",
                     "value": "arn:aws:sns:ap-northeast-2:758733530144:stock_notification"
-                },
+                }
+            ],
+            "secrets": [
                 {
                     "name": "AWS_ACCESS_KEY_ID",
-                    "valueForm": "arn:aws:secretsmanager:ap-northeast-2:758733530144:secret:teamd_aws_access-62AJkl:AWS_ACCESS_KEY_ID::"
+                    "valueFrom": "arn:aws:secretsmanager:ap-northeast-2:758733530144:secret:teamd_aws_access-62AJkl:AWS_ACCESS_KEY_ID::"
                 },
                 {
                     "name": "AWS_SECRET_ACCESS_KEY",
-                    "valueForm": "arn:aws:secretsmanager:ap-northeast-2:758733530144:secret:teamd_aws_access-62AJkl:AWS_SECRET_ACCESS_KEY::"
+                    "valueFrom": "arn:aws:secretsmanager:ap-northeast-2:758733530144:secret:teamd_aws_access-62AJkl:AWS_SECRET_ACCESS_KEY::"
                 }
             ],
             "environmentFiles": [],
