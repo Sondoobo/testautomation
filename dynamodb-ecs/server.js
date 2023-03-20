@@ -15,3 +15,4 @@ const start = async () => {
 }
 
 start()
+// CI/CD 테스트
