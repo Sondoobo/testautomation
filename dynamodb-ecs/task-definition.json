@@ -18,15 +18,15 @@
             "environment": [
                 {
                     "name": "TOPICARN",
-                    "value": "arn:aws:sns:ap-northeast-2:758733530144:stock_notification"
+                    "value": ""
                 },
                 {
                     "name": "AWS_ACCESS_KEY_ID",
-                    "value": "AKIA3BKAK4QQPTZLAY7E"
+                    "value": ""
                 },
                 {
                     "name": "AWS_SECRET_ACCESS_KEY",
-                    "value": "scjjJOSJrYilKpJ3dwmRTsyFEmxn+sAtQC9SmT2c"
+                    "value": ""
                 }
             ],
             "environmentFiles": [],
